@@ -1,0 +1,28 @@
+# 의존성/빌드 산출물 제외
+node_modules
+dist
+build
+
+# VCS/IDE/로컬 캐시 제외
+.git
+.gitignore
+.history
+.DS_Store
+.vscode
+.idea
+
+# 환경변수/시크릿 파일 제외
+.env
+.env.*
+
+# 로그/임시 파일 제외
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.swp
+*.swo
+
+# 문서/운영과 무관한 메타 파일 제외
+README.md

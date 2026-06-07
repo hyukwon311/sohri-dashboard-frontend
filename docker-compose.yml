@@ -1,0 +1,13 @@
+services:
+  frontend:
+    container_name: sohri-dashboard-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # Vite는 빌드 타임에 환경변수를 주입하므로 build args로 전달
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8767}
+        VITE_ENABLE_MSW: ${VITE_ENABLE_MSW:-false}
+    ports:
+      - "8767:80"
+    restart: unless-stopped

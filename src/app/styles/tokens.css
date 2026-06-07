@@ -1,0 +1,26 @@
+:root {
+  --bg-default: #f8fafc;
+  --bg-surface: #ffffff;
+  --border-default: #e5e7eb;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+
+  --status-done: #2f9e73;
+  --status-done-soft: #e9f7f1;
+  --status-progress: #5b6fd6;
+  --status-progress-soft: #eceefe;
+  --status-todo: #98a2b3;
+  --status-todo-soft: #f2f4f7;
+
+  --track-planning: #2f8f87;
+  --track-planning-soft: #e8f7f5;
+  --track-accent: #7b61c9;
+  --track-accent-soft: #f1edff;
+  --track-upcoming: #d3873f;
+  --track-upcoming-soft: #fff5eb;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+}
